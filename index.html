@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche_Dynamique_En_JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""> 
+    <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+</head>
+<body>
+    
+    <div class="global-conatiner">
+        <!-- barre de menu latérale -->
+        <nav class="side-nav">
+            <div class="nav-logo">
+                <img src="img/logo.png" alt="" id="logo">
+                <h1>LOGO</h1>
+            </div>
+            <a href="" class="block-link">
+                <img src="img/four-squares-line-icon.svg" alt="">
+                <span class="nav-links">Tableau de bord</span>
+            </a>
+            <a href="" class="block-link">
+                <img src="img/speaking-bubbles-line-icon.svg" alt="">
+                <span class="nav-links">Notification</span>
+            </a>
+            <a href="" class="block-link active">
+                <img src="img/database-line-icon.svg" >
+                <span class="nav-links">Base de données</span>
+            </a>
+            <a href="" class="block-link">
+                <img src="img/calendar-icon.svg" alt="">
+                <span class="nav-links">Horaires</span>
+            </a>
+        </nav>
+
+        <main class="main-content">
+            <div class="input-control">
+                <label for="search">
+                    <img src="img/magnifier-glass-icon.svg" alt="">
+                </label>
+                <input type="text" id="search" placeholder="Recherche d'un utilisateur">
+            </div>
+            <h2 class="main-title">Résultat(s) de la recherche</h2>
+            <div class="table">
+                <h3 class="table-title">Noms</h3>
+                <h3 class="table-title">E-mail</h3>
+                <h3 class="table-title">Numéro</h3>
+            </div>
+            <div class="table-result">
+                <div class="table-item">
+               <!-- <div class="container-image">
+                        <img src="" alt="">
+                        <p class="name"></p>
+                    </div>
+                    <p class="email"></p>
+                    <p class="phone"></p> -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
